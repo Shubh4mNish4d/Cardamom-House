@@ -24,7 +24,7 @@ export default function MenuItem({ item, soldOut = false }: Props) {
       <div className="flex items-start justify-between gap-5">
 
        <div className="flex gap-6"> 
-           <div className="md:max-w-40 max-w-25  md:max-h-30 min-h-35 md:min-h-30 max-h-35 rounded-sm overflow-hidden">
+           <div className="md:max-w-40 max-w-25 min-w-25 md:max-h-30 min-h-35 md:min-h-30 max-h-35 rounded-sm overflow-hidden">
           <img src={item.image} className="w-full h-full object-cover object-center" alt="" />
         </div>
         <div className="min-w-0">
